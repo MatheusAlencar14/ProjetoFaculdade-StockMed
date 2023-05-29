@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+.container{
+	margin: auto;
+    background-color: #076C4C;
+	text-align: center;
+	color: white;
+	padding: 10px;
+    
+}
+
+h1 {
+    background-color: #076C4C;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+a {
+    background-color: #076C4C;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+
+select{
+    background-image: url('./images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: right 10px;
+}
+
+
+.itensEstoque{
+
+    visibility: hidden;
+    height: 0px;   
+    margin: auto;
+    max-width: fit-content;
+    background-color: #f07f3d;
+}
+
+#tabela {
+	margin-top: 30px;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px; 
+	text-align: left;
+	background-color: #076C4C;
+	color: #f07f3d;
+}
